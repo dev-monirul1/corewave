@@ -1,0 +1,44 @@
+/* ===== common css style start ====== */
+*{
+    font-family: "Lato", sans-serif;
+}
+/* ===== common css style end ====== */
+
+/* ===== navbar css style end ====== */
+#navbar{
+    
+}
+.navbar-nav{
+    gap: 45px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #1B1B1B;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #06C279;
+}
+.btn{
+    margin-left: 142px;
+    background-color: #06C279;
+    padding: 15px 25px;
+    border: 2px solid transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+}
+.btn:hover{
+    border: 2px solid #06C279;
+    background-color: transparent;
+    color: #1B1B1B;
+}
+/* ===== navbar css style end ====== */
+
+/* ===== navbar css style end ====== */
+/* ===== navbar css style end ====== */
+
+/* ===== navbar css style end ====== */
+/* ===== navbar css style end ====== */
