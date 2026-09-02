@@ -2,11 +2,17 @@
 *{
     font-family: "Lato", sans-serif;
 }
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
 /* ===== common css style end ====== */
 
 /* ===== navbar css style end ====== */
 #navbar{
-    
+
 }
 .navbar-nav{
     gap: 45px;
@@ -37,8 +43,28 @@
 }
 /* ===== navbar css style end ====== */
 
-/* ===== navbar css style end ====== */
-/* ===== navbar css style end ====== */
+/* ===== banner css style start ====== */
+#banner{
+    background-color: #EEFFF9;
+}
+.bannerText{
+    margin-top: 190px;
+}
+.bannerText h1{
+    font-size: 60px;
+    font-weight: 300;
+    color: #1B1B1B;
+    line-height: 71.5px;
+    width: 526px;
+    margin-bottom: 37px;
+}
+.bannerText h1 span{
+    font-weight: 700;
+}
+.bannerImg{
+    margin-top: 100px;
+}
+/* ===== banner css style end ====== */
 
-/* ===== navbar css style end ====== */
+/* ===== navbar css style start ====== */
 /* ===== navbar css style end ====== */
