@@ -126,4 +126,124 @@ ul,ol{
 #experience{
     padding: 100px 0;
 }
+.experienceText h3{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #1B1B1B;
+    width: 445px;
+    margin-bottom: 30px;
+}.experienceText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 550px;
+    margin-bottom: 45px;
+}
+.experienceBtn a{
+    background-color: #DAF6EB;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #06C279;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.experienceBtn a:hover{
+    background-color: #06C279;
+    color: #fff;
+}
 /* ===== experience css style end ====== */
+
+/* ===== service css style start ====== */
+#service{
+    background-color: #EEFFF9;
+    border-radius: 350px 0;
+    padding: 70px 0;
+}
+.serviceBoxFlex{
+    margin-top: 133px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.serviceBoxFlex1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.serviceBox{
+    padding: 42px 0 60px 47px;
+    background-color: #fff;
+    transition: .5s;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.05);
+}
+.serviceBox .serviceIcon svg path{
+    fill: #06C279;
+    transition: .5s;
+}
+.serviceBox h6{
+    margin-top: 14px;
+    color: #1B1B1B;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 14px;
+    transition: .5s;
+}
+.serviceBox p{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: .5s;
+}
+.serviceBox:hover{
+    background-color: #06C279;
+}
+.serviceBox:hover h6 , .serviceBox:hover p{
+    color: #fff;
+}
+.serviceBox:hover .serviceIcon svg path{
+    fill: #fff;
+}
+.serviceText{
+    margin-left: 100px;
+}
+.serviceText h3{
+    color: #1B1B1B;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    width: 437px;
+}
+.serviceText p{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 543px;
+    margin: 30px 0;
+}
+.serviceText .serviceBtn{
+    padding: ;
+    background-color: #DAF6EB;
+}
+.serviceText .serviceBtn{
+    background-color: #DAF6EB;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #06C279;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.serviceText .serviceBtn:hover{
+    background-color: #06C279;
+    color: #fff;
+}
+/* ===== service css style end ====== */
