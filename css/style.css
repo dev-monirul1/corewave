@@ -1,34 +1,42 @@
 /* ===== common css style start ====== */
-*{
+* {
     font-family: "Lato", sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
+
 /* ===== common css style end ====== */
 
 /* ===== navbar css style end ====== */
-#navbar{
+#navbar {
     position: absolute;
     width: 100%;
     margin: 0 auto;
 }
-.navbar-nav{
+
+.navbar-nav {
     gap: 45px;
 }
-.navbar-nav .nav-item .nav-link{
+
+.navbar-nav .nav-item .nav-link {
     color: #1B1B1B;
     font-size: 16px;
     font-weight: 500;
     transition: 0.5s;
 }
-.navbar-nav .nav-item .nav-link:hover{
+
+.navbar-nav .nav-item .nav-link:hover {
     color: #06C279;
 }
-.btn{
+
+.btn {
     margin-left: 142px;
     background-color: #06C279;
     padding: 15px 25px;
@@ -38,21 +46,25 @@ ul,ol{
     color: #fff;
     transition: 0.5s;
 }
-.btn:hover{
+
+.btn:hover {
     border: 2px solid #06C279;
     background-color: transparent;
     color: #1B1B1B;
 }
+
 /* ===== navbar css style end ====== */
 
 /* ===== banner css style start ====== */
-#banner{
+#banner {
     background-color: #EEFFF9;
 }
-.bannerText{
+
+.bannerText {
     margin-top: 190px;
 }
-.bannerText h1{
+
+.bannerText h1 {
     font-size: 60px;
     font-weight: 300;
     color: #1B1B1B;
@@ -60,22 +72,26 @@ ul,ol{
     width: 526px;
     margin-bottom: 37px;
 }
-.bannerText h1 span{
+
+.bannerText h1 span {
     font-weight: 700;
 }
-.bannerText p{
+
+.bannerText p {
     color: #717171;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 51px;
     width: 511px;
 }
-.bannerText .bannerBtnFlex{
+
+.bannerText .bannerBtnFlex {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.bannerText .bannerBtnFlex a{
+
+.bannerText .bannerBtnFlex a {
     background-color: #06C279;
     padding: 15px 25px;
     font-size: 16px;
@@ -85,12 +101,14 @@ ul,ol{
     border-radius: 5px;
     transition: 0.5s;
 }
-.bannerBtnFlex a{
+
+.bannerBtnFlex a {
     display: flex;
     align-items: center;
     gap: 12px;
 }
-.circleBtn{
+
+.circleBtn {
     height: 20px;
     width: 20px;
     border-radius: 50%;
@@ -99,41 +117,51 @@ ul,ol{
     transition: 0.5s;
 
 }
-.circleBtn i{
+
+.circleBtn i {
     font-size: 12px;
     position: absolute;
     top: 50%;
     left: 55%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     transition: 0.5s;
 }
-.bannerText .bannerBtnFlex a:hover{
+
+.bannerText .bannerBtnFlex a:hover {
     color: #1B1B1B;
     border: 2px solid #06C279;
     background-color: transparent;
 }
-.bannerText .bannerBtnFlex a:hover .circleBtn{
+
+.bannerText .bannerBtnFlex a:hover .circleBtn {
     background-color: #DAF6EB;
-}.bannerText .bannerBtnFlex a:hover .circleBtn i{
+}
+
+.bannerText .bannerBtnFlex a:hover .circleBtn i {
     color: #06C279;
 }
-.bannerImg{
+
+.bannerImg {
     margin-top: 100px;
 }
+
 /* ===== banner css style end ====== */
 
 /* ===== experience css style start ====== */
-#experience{
+#experience {
     padding: 100px 0;
 }
-.experienceText h3{
+
+.experienceText h3 {
     font-size: 45px;
     font-weight: 600;
     line-height: 54px;
     color: #1B1B1B;
     width: 445px;
     margin-bottom: 30px;
-}.experienceText p{
+}
+
+.experienceText p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -141,7 +169,8 @@ ul,ol{
     width: 550px;
     margin-bottom: 45px;
 }
-.experienceBtn a{
+
+.experienceBtn a {
     background-color: #DAF6EB;
     padding: 15px 25px;
     border-radius: 5px;
@@ -151,41 +180,48 @@ ul,ol{
     border: 2px solid transparent;
     transition: .5s;
 }
-.experienceBtn a:hover{
+
+.experienceBtn a:hover {
     background-color: #06C279;
     color: #fff;
 }
+
 /* ===== experience css style end ====== */
 
 /* ===== service css style start ====== */
-#service{
+#service {
     background-color: #EEFFF9;
     border-radius: 350px 0;
     padding: 70px 0;
 }
-.serviceBoxFlex{
+
+.serviceBoxFlex {
     margin-top: 133px;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
 }
-.serviceBoxFlex1{
+
+.serviceBoxFlex1 {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
 }
-.serviceBox{
+
+.serviceBox {
     padding: 42px 0 60px 47px;
     background-color: #fff;
     transition: .5s;
     border-radius: 10px;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.05);
 }
-.serviceBox .serviceIcon svg path{
+
+.serviceBox .serviceIcon svg path {
     fill: #06C279;
     transition: .5s;
 }
-.serviceBox h6{
+
+.serviceBox h6 {
     margin-top: 14px;
     color: #1B1B1B;
     font-size: 20px;
@@ -194,33 +230,41 @@ ul,ol{
     margin-bottom: 14px;
     transition: .5s;
 }
-.serviceBox p{
+
+.serviceBox p {
     color: #7B7B7B;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     transition: .5s;
 }
-.serviceBox:hover{
+
+.serviceBox:hover {
     background-color: #06C279;
 }
-.serviceBox:hover h6 , .serviceBox:hover p{
+
+.serviceBox:hover h6,
+.serviceBox:hover p {
     color: #fff;
 }
-.serviceBox:hover .serviceIcon svg path{
+
+.serviceBox:hover .serviceIcon svg path {
     fill: #fff;
 }
-.serviceText{
+
+.serviceText {
     margin-left: 100px;
 }
-.serviceText h3{
+
+.serviceText h3 {
     color: #1B1B1B;
     font-size: 45px;
     font-weight: 600;
     line-height: 54px;
     width: 437px;
 }
-.serviceText p{
+
+.serviceText p {
     color: #7B7B7B;
     font-size: 16px;
     font-weight: 400;
@@ -228,11 +272,13 @@ ul,ol{
     width: 543px;
     margin: 30px 0;
 }
-.serviceText .serviceBtn{
+
+.serviceText .serviceBtn {
     padding: ;
     background-color: #DAF6EB;
 }
-.serviceText .serviceBtn{
+
+.serviceText .serviceBtn {
     background-color: #DAF6EB;
     padding: 15px 25px;
     border-radius: 5px;
@@ -242,17 +288,20 @@ ul,ol{
     border: 2px solid transparent;
     transition: .5s;
 }
-.serviceText .serviceBtn:hover{
+
+.serviceText .serviceBtn:hover {
     background-color: #06C279;
     color: #fff;
 }
+
 /* ===== service css style end ====== */
 
 /* ===== project css style start ====== */
-#project{
+#project {
     padding: 91px 0 100px 0;
 }
-.projectHeading h2{
+
+.projectHeading h2 {
     font-size: 45px;
     font-weight: 600;
     line-height: 54px;
@@ -265,50 +314,114 @@ ul,ol{
 .projectMenuText {
     align-items: center;
 }
-.projectMenuText h5{
+
+.projectMenuText h5 {
     color: #7B7B7B;
     font-size: 16px;
-    font-weight: 500; 
+    font-weight: 500;
     padding-bottom: 10px;
-    /* border-bottom: 3px solid #CECECE; */
-}
-.borderDown{
-    /* width: 940px; */
-    border-bottom: 3px solid #CECECE;
-    margin: 0 auto;
-   
-    max-width: 950px;
-}
-.projectMenu{
-    /* border: 1px solid red; */
-    /* width: 100%; */
+    position: relative;
+    transition: .5s;
 }
 
-/* .projectMenu ul{
-    display: flex;
-    justify-content: center;                    
+.projectMenuText .one::after {
+    position: absolute;
+    content: "";
+    width: 180%;
+    height: 3px;
+    background-color: #06C279;
+    left: -90px;
+    bottom: -11px;
+    opacity: 0;
+    transition: .5s;
 }
-.projectMenu ul li{
-    text-align: center;
-   
-    
-    padding: 0 0 21px; 
+
+.projectMenuText .two::after {
+    position: absolute;
+    content: "";
+    width: 130%;
+    height: 3px;
+    background-color: #06C279;
+    left: -24px;
+    bottom: -11px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.projectMenuText .three::after {
+    position: absolute;
+    content: "";
+    width: 110%;
+    height: 3px;
+    background-color: #06C279;
+    left: -24px;
+    bottom: -11px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.projectMenuText .four::after {
+    position: absolute;
+    content: "";
+    width: 120%;
+    height: 3px;
+    background-color: #06C279;
+    left: -24px;
+    bottom: -11px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.projectMenuText .five::after {
+    position: absolute;
+    content: "";
+    width: 200%;
+    height: 3px;
+    background-color: #06C279;
+    left: -40px;
+    bottom: -11px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.projectMenuText h5:hover {
+    color: #06C279;
+}
+
+.projectMenuText h5:hover.one::after,
+.projectMenuText h5:hover.two::after,
+.projectMenuText h5:hover.three::after,
+.projectMenuText h5:hover.four::after,
+.projectMenuText h5:hover.five::after {
+    opacity: 1;
+}
+.borderDown {
     border-bottom: 3px solid #CECECE;
-    
-    
+    margin: 0 auto;
+    max-width: 950px;
 }
-.projectMenu ul li a{
+.projectImgBox {
+    margin-top: 53px;
+}
+.projectImgBox img {
+    border-radius: 15px; 
+}
+.projectImgText{
+    text-align: center;
+}
+.projectImgText h6{
+    color: #1B1B1B;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 20px 0 7px;
+}
+.projectImgText p{
     color: #7B7B7B;
     font-size: 16px;
-    font-weight: 500;  
-    transition: .5s;
-    padding-bottom: 23px;
-   
-    
-   
-} */
-/* .projectMenu ul li a:active{
-    color: #06C279; 
-     border-bottom: 3px solid #06C279;
-} */
+    font-weight: 400;
+    line-height: 22px;
+    width: 344px;
+    display: inline-block;
+}
 /* ===== project css style end ====== */
